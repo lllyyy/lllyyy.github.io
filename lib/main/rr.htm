@@ -7,11 +7,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="true">
 <meta name="msvalidate.01" content="B6C713C1F4E407129EDEF7810A8B9BCB">
-<meta name="description" content="程序员给女朋友用HTML5制作的3D相册，使用鼠标拖拽，能看到3D旋转效果，点击相片，相片能放大，移近。程序员发挥自己的专长，这是那些不懂编程的人望尘莫及的。本相册使用了HTML5的画布技术，需要谷歌浏览器或火狐浏览器等现代浏览器才能正常观看。">
+<meta name="description" content="卢杨的3D相册">
 <meta name="keywords" content="canvas,3D,perspective,texturing,gallery">
 <link rel="stylesheet" href="slider-wb.css">
 <link rel="shortcut icon" href="http://www.webhek.com/favicon.ico?1e4e94">
-<title>程序员给女朋友用HTML5制作的3D相册</title>
+<title>卢杨的3D相册</title>
 <style>
 html {
 	overflow: hidden;
@@ -278,8 +278,8 @@ body {
 })().load({
 	imgdata:[
 		// north
-		{img:'Images/1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
-		{img:'Images/2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
+		{img:'/lib/mian/Images/1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
+		{img:'../main/Images/2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
 		{img:'Images/3.jpg', x:1000,  y:0, z:1500, nx:0, nz:1},
 		// east
 		{img:'Images/4.jpg', x:1500,  y:0, z:1000, nx:-1, nz:0},
@@ -398,11 +398,11 @@ body {
 		<div class="container">
 			<div class="nav-on">
 				<ul class="menu">
-					<li class="home"><a href="http://www.webhek.com/">Home</a></li>
+					<!-- <li class="home"><a href="http://www.webhek.com/">Home</a></li> -->
 			</ul></div>
 			<div class="nav-off">
 				<div id="icon"><div></div><div></div></div>
-				<h1 class="title">程序员给女朋友的礼物<br>HTML5 3D相册</h1>
+				<h1 class="title">卢杨<br>HTML5 3D相册</h1>
 			</div>
 		</div>
 	</label>
